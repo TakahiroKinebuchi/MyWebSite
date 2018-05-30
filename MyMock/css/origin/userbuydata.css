@@ -1,0 +1,29 @@
+ul{
+	background: black;
+}
+ul li{
+	display: inline;
+}
+
+.newuser{
+	width : 32px;
+	height : 32px;
+}
+
+.logout{
+	width : 32px;
+	height : 32px;
+}
+
+.heading{
+	text-align: center;
+}
+
+img.userbuyhistorydetail{
+	width : 32px;
+	height : 32px;
+}
+
+.return{
+	text-align: left;
+}

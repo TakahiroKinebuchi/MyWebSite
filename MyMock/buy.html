@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/origin/buy.css">
+
+<meta charset="UTF-8">
+<title>購入</title>
+</head>
+<body>
+
+	<div class="container">
+		<ul class="nav justify-content-end">
+			<li class="nav-item"><a class="nav-link username" href="userMoreDetail.html">ユーザ名</a></li>
+			<li class="nav-item"><a href="newUser.html"><img class="newuser" src="image/ユーザー新規.png" alt="ユーザー新規"></a></li>
+			<li class="nav-item"><a href="login.html"><img class="logout" src="image/ログアウトアイコン.png" alt="ログアウトアイコン"></a></li>
+		</ul>
+	</div>
+
+	<div class="container">
+		<div class="row center">
+			<h5 class=" col s12 light">カートアイテム</h5>
+		</div>
+						<form action="post">
+							<div class="row">
+								<table class="table">
+									<thead>
+										<tr>
+											<th class="center" style="width: 20%">商品名</th>
+											<th class="center">単価</th>
+											<th class="center" style="width: 20%">小計</th>
+										</tr>
+									</thead>
+									<tbody>
+
+										<tr>
+											<td class="center">MONSTER</td>
+											<td class="center">4320円</td>
+											<td class="center">4320円</td>
+										</tr>
+
+										<tr>
+											<td class="center">MONSTER ABSOLUTELY ZERO</td>
+											<td class="center">4080円</td>
+											<td class="center">4080円</td>
+										</tr>
+
+										<tr>
+											<td class="center">KICKSTART</td>
+											<td class="center">4560円</td>
+											<td class="center">4560円</td>
+										</tr>
+
+										<tr>
+											<td class="center"></td>
+											<td class="center">商品合計</td>
+											<td class="center">12960円</td>
+										</tr>
+										<tr>
+											<td class="center"></td>
+											<td class="center"></td>
+											<td class="center">
+												<div class="input-field col s8 offset-s2 ">
+													<select name="delivery_method_id">
+														<option value="">配送方法</option>
+														<option value="クイックチャージ">クイックチャージ</option>
+														<option value="ノーマルチャージ">ノーマルチャージ</option>
+													</select>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+									<a class="btn btn-primary btn-block" role="button" href="buyconfirm.html">購入確認</a>
+						</form>
+					</div>
+	</body>
+</html>

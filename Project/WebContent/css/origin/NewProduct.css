@@ -1,0 +1,29 @@
+ul{
+	background: black;
+}
+ul li{
+	display: inline;
+}
+
+.newuser{
+	width : 32px;
+	height : 32px;
+}
+
+.logout{
+	width : 32px;
+	height : 32px;
+}
+
+.container{
+	position : relative;
+}
+
+.button_wrapper{
+	position : relative;
+	left : 1050px;
+}
+
+.return{
+	text-align : left;
+}

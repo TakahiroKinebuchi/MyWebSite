@@ -1,0 +1,38 @@
+ul{
+	background: black;
+}
+ul li{
+	display: inline;
+}
+
+.newuser{
+	width : 32px;
+	height : 32px;
+}
+
+.logout{
+	width : 32px;
+	height : 32px;
+}
+
+.card{
+	width : 18rem;
+}
+
+.monster{
+	width : 215px;
+	height : 200px;
+}
+
+.heading{
+	text-align: center;
+}
+
+img.userbuyhistorydetail{
+	width : 32px;
+	height : 32px;
+}
+
+.return{
+	text-align: left;
+}

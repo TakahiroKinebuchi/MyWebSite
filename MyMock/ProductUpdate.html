@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/origin/ProductUpdate.css">
+
+<meta charset="UTF-8">
+<title>商品マスター情報更新</title>
+</head>
+<body>
+
+	<div class="container">
+		<ul class="nav justify-content-end">
+			<li class="nav-item"><a class="nav-link username" href="userMoreDetail.html">ユーザ名</a></li>
+			<li class="nav-item"><a href="newUser.html"><img class="newuser" src="image/ユーザー新規.png" alt="ユーザー新規"></a></li>
+			<li class="nav-item"><a href="login.html"><img class="logout" src="image/ログアウトアイコン.png" alt="ログアウトアイコン"></a></li>
+		</ul>
+	</div>
+
+	<div class="container">
+		<div class="row center">
+			<h5 class=" col s12 light">商品マスター情報更新</h5>
+		</div>
+		<form action="post">
+			<div class="row">
+				<div class="col s6">
+					<div class="image">
+						<img class="monster" src="image/MONSTER.jpg" alt="モンスター">
+					</div>
+				</div>
+				<div class="col s6">
+					<h4 class="card-title">MONSTER 355ml×24本</h4>
+					<h5 class="card-text">内容量:355ml×24本 商品サイズ(高さ×奥行×幅):166mm×237mm×353mm 原材料:砂糖類(砂糖、ぶどう糖)、高麗人参根エキス、L-カルニチンL-酒石酸塩、塩化ナトリウム、ガラナ種子エキス、クエン酸、香料、クエン酸Na、甘味料(D-リボース、スクラロース)、L-アルギニン、保存料(安息香酸)、カフェイン、ナイアシン、着色料(アントシアニン)、イノシトール、ビタミンB6、ビタミンB2、ビタミンB12</h5>
+					<h5 class="card-text">40[mg/100ml]</h5>
+					<div class="form-group row">
+						<label class="col-sm-2 col-form-label">価格[円]</label>
+						<div class="col-sm-10">
+							<input type="number" class="form-control">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="button_wrapper">
+				<button type="submit" class="btn btn-success" name="button"
+					value="1">更新</button>
+			</div>
+
+		</form>
+		<div class="return">
+			<p>
+				<a href="usermaster.html">戻る</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

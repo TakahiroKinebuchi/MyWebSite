@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/origin/itemsearchresult.css">
+
+<meta charset="UTF-8">
+<title>検索結果</title>
+</head>
+<body>
+
+
+	<div class="container">
+			<ul class="nav justify-content-end">
+				<li class="nav-item"><a class="nav-link username" href="userMoreDetail.html">ユーザ名</a></li>
+				<li class="nav-item"><a href="newUser.html"><img class="newuser" src="image/ユーザー新規.png" alt="ユーザー新規"></a></li>
+				<li class="nav-item"><a href="login.html"><img class="logout" src="image/ログアウトアイコン.png" alt="ログアウトアイコン"></a></li>
+			</ul>
+
+		<div id="form">
+			<div class="heading">
+				<h1>検索結果</h1>
+			</div>
+
+			<div class="container">
+				<div class="row center">
+					<h5 class=" col s12 light">検索結果1件</h5>
+					<form action="post">
+						<p>
+							<select name="sort">
+								<option>価格が高い順</option>
+								<option>価格が安い順</option>
+								<option>カフェインが多い順</option>
+								<option>カフェインが少ない順</option>
+							</select>
+						</p>
+						<p>
+							<input type="submit" value="並び替え">
+						</p>
+					</form>
+				</div>
+				<div class="section">
+					<!--   商品情報   -->
+					<div class="row">
+						<div class="card-deck">
+							<div class="card">
+								<a href="item.html"><img class="monster"
+									src="image/MONSTER.jpg" alt="モンスター"></a>
+								<div class="card-body">
+									<h5 class="card-title">MONSTER 355ml×24本</h5>
+									<p class="card-text">4320[円]</p>
+									<p class="card-text">40[mg/100ml]</p>
+									<a href="cart.html"><img src="image/カートに入れる.jpg"
+										alt="カートに入れる"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row"></div>
+				</div>
+				<div class="row center">
+					<ul class="pagination">
+						<!-- １ページ戻るボタン  -->
+
+						<!-- ページインデックス -->
+
+						<!-- マイナスページが生成されないように -->
+
+						<!-- MAXを越さないように -->
+
+						<!-- 1ページ送るボタン -->
+
+					</ul>
+				</div>
+			</div>
+			<div class="return">
+				<p>
+					<a href="index.html">戻る</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

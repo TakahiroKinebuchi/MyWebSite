@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/origin/newuser.css">
+
+<meta charset="UTF-8">
+<title>ユーザ新規登録</title>
+</head>
+<body>
+
+
+	<div class="container">
+			<ul class="nav justify-content-end">
+			<li class="nav-item"><a class="nav-link username" href="userMoreDetail.html">ユーザ名</a></li>
+			<li class="nav-item"><a href="newUser.html"><img class="newuser" src="image/ユーザー新規.png" alt="ユーザー新規"></a></li>
+			<li class="nav-item"><a href="login.html"><img class="logout" src="image/ログアウトアイコン.png" alt="ログアウトアイコン"></a></li>
+			</ul>
+
+		<div id="form">
+			<div class="heading">
+				<h1>ユーザ新規登録</h1>
+			</div>
+
+
+
+			<form action="post">
+
+			<div class="search-area">
+
+			<div class="form-group row">
+						<label class="col-sm-2 col-form-label">ログインID</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control">
+						</div>
+					</div>
+			<div class="form-group row">
+						<label class="col-sm-2 col-form-label">ユーザ名</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control">
+						</div>
+					</div>
+			<div class="form-group row">
+						<label class="col-sm-2 col-form-label">パスワード</label>
+						<div class="col-sm-10">
+							<input type="password" class="form-control">
+						</div>
+					</div>
+			<div class="form-group row">
+						<label class="col-sm-2 col-form-label">パスワード（確認）</label>
+						<div class="col-sm-10">
+							<input type="password" class="form-control">
+						</div>
+					</div>
+			<div class="form-group row">
+						<label class="col-sm-2 col-form-label">生年月日</label>
+						<div class="col-sm-10">
+							<input type="date" class="form-control">
+						</div>
+					</div>
+
+			</div>
+
+			<div class="button_wrapper">
+				<button type="submit" class="btn btn-primary"  name="button" value="1">登録</button>
+				</div>
+			</form>
+
+			<div class="return">
+				<p><a href="userAll.html">戻る</a></p>
+			</div>
+
+		</div>
+
+
+
+	</div>
+</body>
+</html>

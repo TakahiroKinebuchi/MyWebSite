@@ -1,0 +1,32 @@
+ul{
+	background: black;
+}
+ul li{
+	display: inline;
+}
+
+.newuser{
+	width : 32px;
+	height : 32px;
+}
+
+.logout{
+	width : 32px;
+	height : 32px;
+}
+
+.heading{
+	text-align : center;
+}
+
+.center{
+	text-align : center;
+}
+
+.button{
+	margin: 0 auto;
+}
+
+.return{
+	text-align: left;
+}

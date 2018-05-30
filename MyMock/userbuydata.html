@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/origin/userbuydata.css">
+
+<meta charset="UTF-8">
+<title>購入履歴一覧</title>
+</head>
+<body>
+
+
+	<div class="container">
+			<ul class="nav justify-content-end">
+				<li class="nav-item"><a class="nav-link username" href="userMoreDetail.html">ユーザ名</a></li>
+				<li class="nav-item"><a href="newUser.html"><img class="newuser" src="image/ユーザー新規.png" alt="ユーザー新規"></a></li>
+				<li class="nav-item"><a href="login.html"><img class="logout" src="image/ログアウトアイコン.png" alt="ログアウトアイコン"></a></li>
+			</ul>
+
+		<div id="form">
+			<div class="heading">
+				<h1>購入履歴一覧</h1>
+			</div>
+
+			<form action="post">
+
+		<!--  購入履歴 -->
+		<div class="row">
+			<div class="col s12">
+				<div class="card grey lighten-5">
+					<div class="card-content">
+						<table class="table">
+							<thead>
+								<tr>
+									<th class="center" width="10%"></th>
+									<th class="center">購入日時</th>
+									<th class="center">配送方法</th>
+									<th class="center">購入金額</th>
+								</tr>
+							</thead>
+							<tbody>
+										<tr>
+										<td class="center"><a href="userbuyhistorydetail.html"> <img class="userbuyhistorydetail" src="image/購入詳細.png" alt="購入詳細"></a></td>
+										<td class="center">2018年04月25日13:50</td>
+										<td class="center">クイックチャージ</td>
+										<td class="center">13460円</td>
+										</tr>
+
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+			</form>
+
+			<div class="return">
+				<p><a href="userAll.html">戻る</a></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

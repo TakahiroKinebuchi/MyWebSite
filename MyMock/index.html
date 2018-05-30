@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/origin/index.css">
+
+<meta charset="UTF-8">
+<title>TOPページ</title>
+</head>
+<body>
+
+	<div class="container">
+		<ul class="nav justify-content-end">
+			<li class="nav-item"><a class="nav-link username" href="usermaster.html">商品マスター一覧へはこちら</a></li>
+			<li class="nav-item"><a class="nav-link username" href="userMoreDetail.html">ユーザ名</a></li>
+			<li class="nav-item"><a href="newUser.html"><img class="newuser" src="image/ユーザー新規.png" alt="ユーザー新規"></a></li>
+			<li class="nav-item"><a href="login.html"><img class="logout" src="image/ログアウトアイコン.png" alt="ログアウトアイコン"></a></li>
+		</ul>
+	</div>
+
+	<div class="section no-pad-bot" id="index-banner">
+		<div class="container">
+			<br> <br>
+			<div class="row center">
+				<h5 class="header col s12 light" align="right">大人気のエナジードリンクを最短1日でお届け！！</h5>
+			</div>
+			<div class="heading">
+				<h4 class="header" align="left" onclick="location.href='index.html'">EnergyXpressService</h4>
+			</div>
+			<div class="input-group">
+					<input type="text" placeholder="検索名">
+					<span class="input-group-btn">
+						<button type="button" class="btn btn-primary" onclick="location.href='itemsearchresult.html'">Search</button>
+					</span>
+			</div>
+			<div class="cart-in">
+				<a href="cart.html"><img class="incart" src="image/カートのアイコン素材.jpeg" alt="カートのアイコン素材"></a>
+			</div>
+
+			<br> <br>
+
+		</div>
+	</div>
+		<div class="container">
+			<div class="row center">
+				<h5 class=" col s12 light">おすすめ商品</h5>
+			</div>
+			<div class="section">
+				<!--   おすすめ商品   -->
+				<div class="card-deck">
+					<div class="card">
+						<a href="item.html"><img class="monster" src="image/MONSTER.jpg" alt="モンスター"></a>
+						<div class="card-body">
+							<h5 class="card-title">MONSTER 355ml×24本</h5>
+							<p class="card-text">4320円</p>
+							<a href="cart.html"><img src="image/カートに入れる.jpg" alt="カートに入れる"></a>
+						</div>
+					</div>
+					<div class="card">
+						<img class="rockstar" src="image/ROCKSTAR.png" alt="ロックスター">
+						<div class="card-body">
+							<h5 class="card-title">ROCKSTAR 250ml×30本</h5>
+							<p class="card-text">6000円</p>
+							<a href="cart.html"><img src="image/カートに入れる.jpg" alt="カートに入れる"></a>
+						</div>
+					</div>
+					<div class="card">
+						<img class="monster zero" src="image/MONSTER ABSOLUTELY ZERO.png" alt="モンスターゼロ">
+						<div class="card-body">
+							<h5 class="card-title">MONSTER ABUSOLUTELY ZERO 355ml×24本</h5>
+							<p class="card-text">4080円</p>
+							<a href="cart.html"><img src="image/カートに入れる.jpg" alt="カートに入れる"></a>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<nav aria-label="ページャー">
+						<ul class="pagination justify-content-center">
+							<li><a class="btn page-link badge-pill" href="#">&larr;
+									前</a></li>
+							<li class="mx-2"><a class="btn page-link badge-pill"
+								href="#">現在</a></li>
+							<li><a class="btn page-link badge-pill" href="#">次
+									&rarr;</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>

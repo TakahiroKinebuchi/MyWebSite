@@ -1,0 +1,86 @@
+ul{
+	background: black;
+}
+ul li{
+	display: inline;
+}
+
+.newuser{
+	width : 32px;
+	height : 32px;
+}
+
+.logout{
+	width : 32px;
+	height : 32px;
+}
+
+.container{
+	position : relative;
+}
+
+.heading{
+	position : relative;
+	top : 50px;
+}
+
+.input-group{
+	position : relative;
+	top : 5px;
+	left : 240px;
+}
+
+input{
+	text-align : left;
+	width : 700px;
+}
+
+.cart-in{
+	position : relative;
+	top : -50px;
+	left : 1050px;
+}
+
+.incart{
+	width : 64px;
+	height : 64px;
+}
+
+.card{
+	width : 18rem;
+}
+
+.monster{
+	width : 215px;
+	height : 200px;
+}
+
+.monster zero{
+	width : 162px;
+	height : 227px;
+}
+
+.kickstart{
+	width : 1237px;
+	height : 1650px;
+}
+
+.monster khaos{
+	width : 500px;
+	height : 500px;
+}
+
+.monster ultra{
+	width : 1500px;
+	height : 1500px;
+}
+
+.redbull{
+	width : 500px;
+	height : 500px;
+}
+
+.rockstar{
+	width : 258px;
+	height : 274px;
+}

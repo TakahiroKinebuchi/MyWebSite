@@ -1,0 +1,73 @@
+ul{
+	background: black;
+}
+ul li{
+	display: inline;
+}
+
+.newuser{
+	width : 32px;
+	height : 32px;
+}
+
+
+.logout{
+	width : 32px;
+	height : 32px;
+}
+
+.container{
+	position : relative;
+}
+
+.heading{
+	position : relative;
+	top : 50px;
+}
+
+.input-group{
+	position : relative;
+	top : 5px;
+	left : 240px;
+}
+
+input{
+	text-align : left;
+	width : 800px;
+}
+
+.choice{
+	position : relative;
+	top : -30px;
+	left : 950px;
+}
+
+.monster{
+	width : 300px;
+	height : 290px;
+}
+
+.monster zero{
+	width : 300px;
+	height : 290px;
+}
+
+.kickstart{
+	width : 300px;
+	height : 290px;
+}
+
+.monster khaos{
+	width : 300px;
+	height : 290px;
+}
+
+.monster ultra{
+	width : 300px;
+	height : 290px;
+}
+
+.redbull{
+	width : 300px;
+	height : 290px;
+}
